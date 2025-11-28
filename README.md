@@ -102,3 +102,14 @@ http://localhost:8000
 - **Create:** Log a new review.
 - **Toggle:** Set reviews to "Private" (only visible on Dashboard) or "Public" (visible on Homepage).
 - **Filter:** Use the search bar or dropdowns to filter by Movie, Book, or Game.
+
+<img width="960" height="414" alt="image" src="https://github.com/user-attachments/assets/e73f2ef1-cfda-49fd-817c-dae1f427c054" />
+
+<img width="946" height="412" alt="image" src="https://github.com/user-attachments/assets/99e1d35a-559c-4a2d-a70e-ceeda516cbc8" />
+
+<img width="959" height="413" alt="image" src="https://github.com/user-attachments/assets/77955040-25ef-4640-b108-81f4623febe3" />
+
+<img width="960" height="413" alt="image" src="https://github.com/user-attachments/assets/6eac88e0-f3c9-4bf4-8f84-c43b0de52621" />
+
+<img width="949" height="413" alt="image" src="https://github.com/user-attachments/assets/3076fd64-5a2f-43e0-9c0a-572e3c427ba0" />
+
