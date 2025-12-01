@@ -111,7 +111,8 @@
                         <a href="{{ route('reviews.edit', $review) }}" class="text-gray-500 hover:text-blue-600 text-xs font-bold uppercase transition">Edit</a>
                         <span class="text-gray-300">|</span>
                         <form action="{{ route('reviews.destroy', $review) }}" method="POST" onsubmit="return confirm('Delete this review?');">
-                            @csrf @method('DELETE')
+                            @csrf
+                            @method('DELETE')
                             <button class="text-gray-400 hover:text-red-600 text-xs font-bold uppercase transition">Delete</button>
                         </form>
                     </div>

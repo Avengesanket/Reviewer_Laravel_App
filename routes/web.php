@@ -7,7 +7,7 @@ use App\Http\Controllers\ReviewController;
 // Public Homepage
 Route::get('/', [ReviewController::class, 'publicIndex'])->name('home');
 
-// Guest Routes (Only for users NOT logged in)
+// Guest Routes (users NOT logged in)
 Route::middleware('guest')->group(function () {
     Route::get('/register', [AuthController::class, 'showRegister'])->name('register');
     Route::post('/register', [AuthController::class, 'register']);
@@ -15,11 +15,11 @@ Route::middleware('guest')->group(function () {
     Route::post('/login', [AuthController::class, 'login']);
 });
 
-// Authenticated Routes (Only for logged-in users)
+// Authenticated Routes (logged-in users)
 Route::middleware('auth')->group(function () {
     Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
     
-    // Dashboard (Private View)
+    // Dashboard
     Route::get('/dashboard', [ReviewController::class, 'privateIndex'])->name('dashboard');
 
     // Review CRUD
