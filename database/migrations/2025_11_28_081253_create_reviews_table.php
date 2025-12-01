@@ -15,10 +15,10 @@ return new class extends Migration
             $table->id();
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->string('title');
-            $table->string('type'); // Movie, Book, Game, et
+            $table->string('type'); 
             $table->string('genre')->nullable();
             $table->integer('rating'); 
-            $table->text('body'); // Personal Review
+            $table->text('body'); 
             $table->date('consumed_at');
             $table->boolean('is_public')->default(false);
             $table->timestamps();
